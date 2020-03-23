@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <title>VTU login page</title>
+        <style>
+            table{
+                border-collapse: collapse;
+            }
+            form{
+                background-color:rgb(196, 186, 186);
+                color:black;
+                border-radius: 20px;
+                text-align: center;
+                padding-top: 100px;
+                height: 650px;
+                width: 700px;
+                vertical-align: right;
+                
+            }
+            body{
+                background-color: black;
+
+            }
+            .img1{
+                vertical-align: left;
+                height: 750px;
+                width: 800px;
+                border-radius: 20px;
+            }
+            div{
+                font-size: 30px;
+            }
+           
+           a:hover{
+               color:red;
+           }
+           a{
+               font-size: large;
+               text-align: left;
+           }
+           .headimg{
+               padding-left: 200px;
+               height:10px;
+               width:20px;
+               border-radius: 20px;
+           }
+           .log{
+            color:maroon;
+            font-size: large;
+            text-align:center;
+           }
+           .hr{
+            background-color: black;
+            font-size: large;
+           }
+           input:hover{
+               opacity: 1;
+               background-color: lightgoldenrodyellow;
+           }
+           input[type="submit"]:hover{
+               background-color: rgb(30, 32, 30);
+           }
+        
+        </style>
+        <script>
+            function validate(){
+                var n1=document.getElementById("user").value;
+                var n2=document.getElementById("pass").value;
+                var n3="";
+                if(n1 == ""){
+                    n3+=" username"
+                }
+                    if(n2 ==""){
+                        if( n3!="")
+                          n3+=" and"
+                          n3+=" password" 
+                    }
+                    if(n3!=""){
+                   alert("provide"+n3);
+                  return false
+                    }
+                    else{
+                        return true;
+                    }
+                    
+              
+            }
+        </script>
+    </head>
+    <body  >
+        <table>
+            <tr>
+        <td><img  src="C:\Users\ANANTH B S\Desktop\wt project\img\login.jpg" alt="vtu image" class="img1"></td>
+        <td><form onsubmit=" validate()" action="entry.html" method="POST">
+           <div class="headimg"> <img src="C:\Users\ANANTH B S\Desktop\wt project\img\headimg.jpg" alt="just image"></div><br><br><br><br><br><br><br/>
+           <hr style="background-color:black;font-size: large"><br>
+           <p class="log"><b><i>LOGIN</i></b></p>
+            <div>
+            <b>username</b><input type="text" id="user" placeholder="  enter name or email" style="height: 50px;width:400px;border-radius:10px ;border-color: indigo;" required><br><br>
+           <b> Password</b><input type="password" id="pass" placeholder="  enter password" style="height: 50px;width:400px;border-radius:10px;border-color: indigo;" required><br><br>
+            <input type="submit" id="s" style="border-radius: 10px;; height: 50px;width:100px;background-color:rgb(34, 209, 34);border-color: indigo;color:white;" ><br><br>
+           <hr class="hr"><br>
+            <a href="fogortpass.html" >forgot password?</a></div></td>
+            </div>
+        </form>
+    </tr>
+    </table>
+
+    </body>
+</html>

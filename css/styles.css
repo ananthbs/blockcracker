@@ -1,0 +1,88 @@
+body{
+    background-color:grey;
+}
+.firstb{
+    background-color: red;
+    color:white;
+    border-radius: 20px;
+    height: 60px;
+    width:100px;
+    font-size: 20px;
+}
+.hea1{
+    color:brown;
+    font-size: 50px;
+}
+.s1{
+    padding-left: 90%;
+    
+}
+.m1{
+    vertical-align: left;
+    padding-left: 40px;
+}
+.m3{
+    vertical-align: left;
+    padding-left: 40px;
+}
+.f1{
+    background-color: white;
+    border-radius: 20px;
+    padding:20px;
+    width:90%;
+}
+.s2{
+    height: 30px;
+    width: 300px;
+    border-radius: 20px;
+    padding-left: 60px;
+}
+.s2:hover{
+    border-color: blue;
+}
+.tex{
+    border-radius: 20px;
+}
+.row1{
+    width: 50%;
+}
+.outerform{
+    padding:20px;
+}
+.i1{
+    height: 30px;
+    width: 300px;
+    border-radius: 20px;
+    padding-left: 60px;
+}
+.i2:hover{
+    border-color: blue;
+}
+.i2{
+    height: 30px;
+    width: 130px;
+    border-radius: 10px;
+    
+}
+.i1:hover{
+    border-color: blue;
+}
+.i3:hover{
+    border-color: blue;
+}
+.i3{
+    height: 30px;
+    width: 170px;
+    border-radius: 10px;
+    
+}
+.imag1{
+    padding-left: 30%;
+    height:100px;
+    width:200px;
+}
+.td1{
+    border:1px solid grey;
+    border-style:solid;
+   
+}

@@ -1,0 +1,213 @@
+<html>
+    <head>
+        <title>welcome to vtu page</title>
+       <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script>
+            function reload(){
+                location.reload();
+            }
+            function display{
+                var n = document.getElementById("img").value;
+                document.getElementById("myimg").src="n";
+            }
+           
+        </script>
+
+    </head>
+    <body>
+        <p class="hea1"><b>candidates application form</b></p>
+        <form class="s1">
+            <button class="firstb" onclick=" reload()">clear</button>
+        </form>
+        <div class="outerform">
+        <form class="f1">
+            
+            <table style="width:100%">
+            <tr><td class="row1">
+                <div class="m1">
+           <br><br> <label style="font-size: larger;padding-top: 20px;">username</label>
+               <select name="name" class="s2">
+                   <option></option>
+                    <option>fresh registeration</option>
+                    <option>registered</option>
+                </select>
+            </div>
+            <div class="m3">
+           <br><br><label style="font-size: larger;padding-top: 20px;">Full name</label>
+              <input type="text" class="i1" required>
+            </div>
+            <div class="m3">
+               <br><br> <label style="font-size: large;padding-top:20px;">D O B</label>
+                <input type="date" class="i2" >
+                 <label style="font-size: large;padding-top:20px;">gender</label>
+                <select name="name" class="i2" required>
+                    <option value=""></option>
+                    <option value="">male</option>
+                    <option value="">female</option>
+                    <option value="">other</option>
+                    </select>
+
+                 <label style="font-size: large;padding-top:20px;">Nationalist</label>
+                <select name="name" class="i2" required>
+                    <option value=""></option>
+                    <option value="">indian</option>
+                    <option value="">other[NRI/FN/PNO]</option>
+                </select>
+            </div>
+            <div class="m3">
+                <br><br><label style="font-size: large;padding-top:20px;">father/husband name</label>
+                <input type="text" class="i1" required>
+            </div>
+            <div class="m3">
+                <br><br><label style="font-size: large;padding-top:20px;">mobile no</label>
+                <input type="text" class="i3" maxlength="10" required>
+                <label style="font-size: large;padding-top:20px;">aadhar no(10 digits)</label>
+                <input type="text" class="i3" maxlength="10" required>
+            </div><br><br>
+    
+        </td>
+            <td style="border-left:3px solid grey;padding:10px"><div>
+                <p style="font-size: larger;text-align: left;">postal adress</p>
+                <p style="float:center;padding-left: 80px;" ><textarea class="tex" cols="50" rows="10"></textarea></p>
+
+            </div>
+            <div>
+                <form onsubmit=" return display()">
+               <br> <br> <label style="font-size: large;padding-top:20px;"> profile image:</label><input type="file" id="img"  name="upload" ><input type="submit" ><br><br>
+                <p ><img src="img/userimg.png " class="imag1" id="myimg" ></p>
+            </form>
+            </div>
+        
+        </td>
+            </tr>    
+        </table>
+    
+    </div>
+        </form>
+    <div class="outerform">
+        <form class="f1">
+            <div>
+                <label style="font-size: large;padding-top:20px;padding-left: 30px;">type</label>
+                <select class="i2">
+                <option></option>
+                <option></option>
+            </select>
+                <label style="font-size: large;padding-top:20px;padding-left: 30px;">program</label>
+                <select class="i2">
+                    <option></option>
+                    <option></option>
+                </select>
+                <label style="font-size: large;padding-top:20px;padding-left: 30px;">faculty</label>
+                <select class="i2">
+                    <option></option>
+                    <option></option>
+                </select>
+                <label style="font-size: large;padding-top:20px;padding-left: 30px;">catogery</label>
+                <select class="i2">
+                    <option></option>
+                    <option></option>
+                </select>
+            </div>
+
+        </form>
+    </div>
+    <div class="outform">
+        <form class="f1">
+         <table style="width:100%">
+             <tr>
+                 <td class="row1" >
+                     <div class="m3">
+                         <label style="font-size: large;padding-top:20px;"><strong>Total no of experience <u>in years</u></strong></label><br><br>
+                         <label style="font-size: large;padding-top:20px;">industry</label>
+                         <input type="text" class="i2"  required>
+                         <label style="font-size: large;padding-top:20px;">Teaching</label>
+                         <input type="text" class="i2"  required>
+                         <label style="font-size: large;padding-top:20px;">Research</label>
+                         <input type="text" class="i2"  required>
+                </td>
+                     </div>
+                 <td>
+                     <div >
+                         <label style="font-size: large;padding-top:20px;"><strong>Total <u>Numbers of</u></strong></label><br><br>
+                         <label style="font-size: large;padding-top:20px;">Research Papers</label>
+                         <input type="text" class="i2"  required>
+                         <label style="font-size: large;padding-top:20px;">Patents</label>
+                         <input type="text" class="i2"  required>
+                         <label style="font-size: large;padding-top:20px;">Awards </label>
+                         <input type="text" class="i2"  required>
+                    </td>
+                     </div>
+             </tr>
+         </table>
+        </form>
+    </div>
+    <div class="outform">
+        <form class="f1">
+            <label style="font-size: large;padding-top:20px;"><b>Mandatory Documents</b></label>
+            <Br>
+            <hr>
+            <br>
+            <h3><u>important instruction to follow</u></h3>
+            <ul>
+                <li>Please prefix the file name with the coressponding documnet number(like this:2_All_Degree_Certificates.pdf)by reffering table below</li>
+                <li>on your computer ,put all files in a folder named "Myprofile"and"Zip"it
+                </li>
+                <li>Please make sure the zipped file should not be bigger than 50MB
+
+                </li>
+                <li>
+                    only after properly performing all above instruction,choose the zip file to upload
+                </li>
+            </ul><br><br>
+        <strong>Upload the atteested scanned copies of the following in the order specified below.<br>Note:
+        </strong>
+        <b style="color:red;">Any missing document(s) may result in rejection of thr Ph.D registration</b>
+        <br><br>
+        <table style="border-collapse: collapse;">
+            <tr >
+            <th class="td1" style="width:2%">Doc.Prefix.<br>Number</th>
+            <th class="td1" style="width:40%">Document</th>
+            <th class="td1" style="width:5%">Doc.Prefix.<br>Number</th>
+            <th class="td1" style="width:40%">Document</th>  
+        </tr>
+        <tr >
+            <td class="td1">1</td>
+            <td class="td1">Detailed Bio-data of the certificate</td>
+            <td class="td1">6</td>
+           <td class="td1">In case the candidates is possesing degree from the forgien University.the equivalence<br>
+            certificate issued by association of indian universities(AIU). </td>
+        </tr>  
+        <tr>
+            <td class="td1">2</td>
+            <td class="td1">all degree certificate and marks cards of the candidate</td>
+            <td class="td1">7</td>
+           <td class="td1">Adhar card (photocopy).</td>
+        </tr>  
+        <tr>
+            <td class="td1">3</td>
+            <td class="td1">Category certificate of candidates belonging to<br>
+                SC/ST/Car-I/and any other as applicable</td>
+            <td class="td1">8</td>
+           <td class="td1">Passport with Visa in the case of foreign candidates/Research supervisors. </td>
+        </tr>  
+        <tr>
+            <td class="td1">4</td>
+            <td class="td1">test scor card along with Admission ticket in support<br> of clearence of UGC-CSIR,JRF</td>
+            <td class="td1">9</td>
+           <td class="td1"> Medical Certificate in respect of disability claim.</td>
+        </tr>  
+        <tr>
+            <td class="td1">5</td>
+            <td class="td1">certificate of years of experience and <br> accomplishments</td>
+            <td class="td1"></td>
+           <td class="td1"><br><br></td>
+        </tr>  
+        </table>
+        </form>
+    </div>
+    <div style="padding-right: 100px;padding-bottom: 50px;padding-top: 50px;padding-left: 50px;">
+        <a href= #top >go to top</a>
+        <button style="float: right;color:aliceblue;background-color: green;width:80px;height: 40px;border-radius: 20px;">submit</button>
+    </div>
+    </body>
+</html>
